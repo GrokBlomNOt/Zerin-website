@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>ZerinWebsite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOADING screen -->
+ <div id="loading-screen">
+    <div class="loader"></div>
+    <h2>Memuat Website</h2>
+ </div>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2> DuslandSite</h2>
+
+        <div class="menu-toggle"
+        onclick="toggleMenu()">☰</div>
+
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+
+            <li><a href="#" onclick="toggleTheme()">🌙 Theme</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <h1 id="judul">SELAMAT DATANG DI DUSLANDSITE</h1>
+        <p> 0000000</p>
+
+       <div class="hero-btn">
+    <button onclick="login()">Login</button>
+    <a href="https://example.com" class="btn-link" target="_blank">Link</a>
+</div>
+    </section>
+
+    <!-- INFO -->
+    <section id="info" class="info">
+        <h2>Tentang ⓘ</h2>
+        <p>ZerinWebsite adalah website pertama yang di bangun oleh Muhamad Adliansyah pada tahun
+            2026 di bantu oleh ChatGPT sebagai kontributor resmi , web ini menggunakan HTML ,css
+            dan JavaScript ,web ini sedang dalam pengembangan kami jadi tunggu update selanjutnya
+            dari kami...
+        </p>
+    </section>
+
+    <!-- KONTAK -->
+     <section id="kontak" class="info">
+     <h2>Kontak 👤</h2>
+     <p> Email: Grokblom@gmail.com</p>
+     <p> Github: ABtreawoptis</p>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
